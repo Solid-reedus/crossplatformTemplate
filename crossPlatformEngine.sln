@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameWindows", "gameWindows\gameWindows.vcxproj", "{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameLinux", "gameLinux\gameLinux.vcxproj", "{E73205E4-E912-4F95-A4D1-3432A49D9101}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shared", "shared\shared.vcxitems", "{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|x64.ActiveCfg = Debug|x64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|x64.Build.0 = Debug|x64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|x86.ActiveCfg = Debug|Win32
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Debug|x86.Build.0 = Debug|Win32
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|ARM64.Build.0 = Release|ARM64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|x64.ActiveCfg = Release|x64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|x64.Build.0 = Release|x64
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|x86.ActiveCfg = Release|Win32
+		{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}.Release|x86.Build.0 = Release|Win32
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x64.ActiveCfg = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x64.Build.0 = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x64.Deploy.0 = Debug|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x86.ActiveCfg = Debug|x86
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x86.Build.0 = Debug|x86
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Debug|x86.Deploy.0 = Debug|x86
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|ARM64.Build.0 = Release|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|ARM64.Deploy.0 = Release|ARM64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x64.ActiveCfg = Release|x64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x64.Build.0 = Release|x64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x64.Deploy.0 = Release|x64
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x86.ActiveCfg = Release|x86
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x86.Build.0 = Release|x86
+		{E73205E4-E912-4F95-A4D1-3432A49D9101}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		shared\shared.vcxitems*{169be6ce-d3aa-4a74-b86f-5347c6b6c12f}*SharedItemsImports = 9
+		shared\shared.vcxitems*{2300b97e-aa3e-4a8a-ac6c-4cc74b774bd7}*SharedItemsImports = 4
+		shared\shared.vcxitems*{e73205e4-e912-4f95-a4d1-3432a49d9101}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

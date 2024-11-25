@@ -1,0 +1,10 @@
+﻿  Validating sources
+  Copying sources remotely to '169.254.212.227'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  lnx_input.cpp
+C:\perforceTesting\year1\block b\metalGearPi\gameLinux\lnx_input.cpp(195,22): warning : structured bindings only available with ‘-std=c++17’ or ‘-std=gnu++17’
+  Linking objects
+  gameLinux.vcxproj -> C:\perforceTesting\year1\block b\metalGearPi\gameLinux\bin\ARM64\Debug\gameLinux.out

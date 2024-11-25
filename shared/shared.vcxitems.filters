@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{721cd919-b8ec-460e-9a11-aa3348b16585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{db3d3f33-410a-42d3-9c7b-dc17b27ddcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{5de75246-f905-42c2-a57f-77578b74c85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{7120e205-d77f-402f-9a9d-75e1ccbbd3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{36b4b809-33a4-4767-bb9c-191103e90bcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseInput.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseWindow.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

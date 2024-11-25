@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lnx_window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="lnx_input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="window">
+      <UniqueIdentifier>{269c4d00-e15f-4de1-a881-f255b54769cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{a59f7a3b-165c-4d7a-b991-8f33e18b0096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lnx_window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="lnx_input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
