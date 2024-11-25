@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Ignore Visual Studio files
+openglGame/.vs/
+
+# Ignore build output directories
+openglGame/x64/
+openglGame/Debug/
+openglGame/Release/
+
+# Ignore Assimp folder to avoid large file sizes in the repository
+openglGame/openglGame/libraries/include/assimp x64-windows/

@@ -1,7 +1,9 @@
 ﻿  game.cpp
   main.cpp
+  win_input.cpp
   win_window.cpp
   Generating Code...
-  gameWindows.vcxproj -> C:\perforceTesting\year1\block b\metalGearPi\x64\Debug\gameWindows.exe
+  LINK : C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\x64\Debug\gameWindows.exe not found or not built by the last incremental link; performing full link
+  gameWindows.vcxproj -> C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\x64\Debug\gameWindows.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
