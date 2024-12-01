@@ -1,15 +1,20 @@
 #include "win_shader.h"
 
+//#include <glad/glad.h>
+//#include <GLFW/glfw3.h>
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 
 #include <string>
 #include <fstream>
 #include <sstream>
 #include <iostream>
 
-#include <glm.hpp>
+//#include <glm.hpp>
+//#include <gtc/matrix_transform.hpp>
+
+#include "../libraries/shared/glm/glm.hpp"
 #include <gtc/matrix_transform.hpp>
 
 

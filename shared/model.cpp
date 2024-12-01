@@ -7,24 +7,34 @@
 #include <EGL/egl.h>
 #include <GLES3/gl3.h>
 
+#include <assimp/Importer.hpp>
+#include <assimp/scene.h>
+#include <assimp/postprocess.h>
+
 #endif // LINUX_BUILD
 
 #ifdef WINDOWS_BUILD
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
-
-#include <glad/glad.h> 
+#include "../libraries/windows/stb/stb_image.h"
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+
+#include <assimp/Importer.hpp>
+
+#include <assimp/scene.h>
+#include <assimp/postprocess.h>
 
 #endif // WINDOWS_BUILD
 
 
+
 #include "string"
 
-#include <assimp/Importer.hpp>
-#include <assimp/scene.h>
-#include <assimp/postprocess.h>
+//#include <assimp/Importer.hpp>
+//#include <assimp/scene.h>
+//#include <assimp/postprocess.h>
+
 
 #include "baseShader.h"
 #include "baseRenderable.h"

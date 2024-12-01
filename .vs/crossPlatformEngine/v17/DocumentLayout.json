@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|solutionrelative:shared\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}|gameWindows\\gameWindows.vcxproj|C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\baseShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}|gameWindows\\gameWindows.vcxproj|solutionrelative:shared\\baseShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}|gameWindows\\gameWindows.vcxproj|C:\\USERS\\DOGEF\\DOCUMENTS\\CPP FILES\\CROSSPLATFORMTEMPLATE\\CROSSPLATFORMTEMPLATE\\LIBRARIES\\WINDOWS\\INCLUDE\\ASSIMP\\IMPORTER.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2300B97E-AA3E-4A8A-AC6C-4CC74B774BD7}|gameWindows\\gameWindows.vcxproj|solutionrelative:LIBRARIES\\WINDOWS\\INCLUDE\\ASSIMP\\IMPORTER.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|solutionrelative:shared\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|solutionrelative:shared\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{169BE6CE-D3AA-4A74-B86F-5347C6B6C12F}|shared\\shared.vcxitems|solutionrelative:shared\\mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "baseShader.h",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\baseShader.h",
+              "RelativeDocumentMoniker": "shared\\baseShader.h",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\baseShader.h",
+              "RelativeToolTip": "shared\\baseShader.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T21:16:18.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Importer.hpp",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\libraries\\windows\\include\\assimp\\Importer.hpp",
+              "RelativeDocumentMoniker": "libraries\\windows\\include\\assimp\\Importer.hpp",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\libraries\\windows\\include\\assimp\\Importer.hpp",
+              "RelativeToolTip": "libraries\\windows\\include\\assimp\\Importer.hpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAD0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T20:59:54.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "model.h",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.h",
+              "RelativeDocumentMoniker": "shared\\model.h",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.h",
+              "RelativeToolTip": "shared\\model.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T19:26:19.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "model.cpp",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.cpp",
+              "RelativeDocumentMoniker": "shared\\model.cpp",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\model.cpp",
+              "RelativeToolTip": "shared\\model.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T19:19:18.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mesh.cpp",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\mesh.cpp",
+              "RelativeDocumentMoniker": "shared\\mesh.cpp",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\mesh.cpp",
+              "RelativeToolTip": "shared\\mesh.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T19:19:06.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\game.cpp",
+              "RelativeDocumentMoniker": "shared\\game.cpp",
+              "ToolTip": "C:\\Users\\dogef\\Documents\\cpp files\\crossplatformTemplate\\crossplatformTemplate\\shared\\game.cpp",
+              "RelativeToolTip": "shared\\game.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T19:19:01.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

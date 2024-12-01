@@ -1,8 +1,12 @@
 #pragma once
 
 #include "../shared/baseWindow.h"
-#include <glad/glad.h> 
+//#include <glad/glad.h> 
+//#include <GLFW/glfw3.h>
+
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+
 
 class WinWindow : public BaseWindow
 {

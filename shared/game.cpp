@@ -8,14 +8,19 @@
 
 #ifdef WINDOWS_BUILD
 #include <glm.hpp>
+
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 #endif // WINDOWS_BUILD
 
+#include "../shared/model.h"
+#include "../shared/camera.h"
+#include "../shared/common.h"
 
-#include "model.h"
-#include "camera.h"
-#include "common.h"
+
+//#include "model.h"
+//#include "camera.h"
+//#include "common.h"
 
 #include <iostream>
 #include <string>

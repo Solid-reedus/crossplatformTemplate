@@ -9,8 +9,9 @@
 #endif // LINUX_BUILD
 
 #ifdef WINDOWS_BUILD
-#include <glad/glad.h> 
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+
 #endif // WINDOWS_BUILD
 
 

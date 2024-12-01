@@ -1,8 +1,8 @@
-C:\perforceTesting\year1\block b\metalGearPi\shared\game.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\game.obj
-C:\perforceTesting\year1\block b\metalGearPi\shared\mesh.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\mesh.obj
-C:\perforceTesting\year1\block b\metalGearPi\shared\model.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\model.obj
-C:\perforceTesting\year1\block b\metalGearPi\gameWindows\glad.c;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\glad.obj
-C:\perforceTesting\year1\block b\metalGearPi\gameWindows\main.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\main.obj
-C:\perforceTesting\year1\block b\metalGearPi\gameWindows\win_shader.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\win_shader.obj
-C:\perforceTesting\year1\block b\metalGearPi\gameWindows\win_input.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\win_input.obj
-C:\perforceTesting\year1\block b\metalGearPi\gameWindows\win_window.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameWindows\x64\Debug\win_window.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\shared\game.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\game.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\shared\mesh.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\mesh.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\shared\model.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\model.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\glad.c;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\glad.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\main.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\main.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\win_shader.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\win_shader.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\win_input.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\win_input.obj
+C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\win_window.cpp;C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\gameWindows\x64\Debug\win_window.obj

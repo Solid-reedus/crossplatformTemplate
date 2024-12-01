@@ -1,10 +1,18 @@
 #pragma once
 
-#include <glad/glad.h> 
-#include <GLFW/glfw3.h>
+//#include "glad/glad.h" 
+//#include "GLFW/glfw3.h"
 
-#include <glm.hpp>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+#include "../libraries/shared/glm/glm.hpp"
 #include <gtc/matrix_transform.hpp>
+
+//#include <glm.hpp>
+//#include <gtc/matrix_transform.hpp>
+
+
+
 #include "../shared/baseShader.h"
 #include <string>
 

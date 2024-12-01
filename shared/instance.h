@@ -11,7 +11,12 @@
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
+
 #endif // WINDOWS_BUILD
+//#include "../libraries/shared/glm/" 
+
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
 
 struct Instance
 {

@@ -10,9 +10,12 @@
 #endif // LINUX_BUILD
 
 #ifdef WINDOWS_BUILD
-#include "glm.hpp"
-#include "gtc/matrix_transform.hpp"
-#include "gtc/type_ptr.hpp"
+
+
+#include <glm.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
+
 #endif // WINDOWS_BUILD
 
 #include "baseShader.h"

@@ -8,6 +8,10 @@
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 
+//#include "../libraries/windows/assimp x64-windows/include/assimp/Importer.hpp"
+//#include "../libraries/windows/assimp x64-windows/include/assimp/scene.h"
+
+
 //#include "shader.h"
 #include "baseShader.h"
 #include "baseRenderable.h"

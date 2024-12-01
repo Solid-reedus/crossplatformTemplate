@@ -1,8 +1,3 @@
-﻿  game.cpp
-  main.cpp
-  win_shader.cpp
-  win_window.cpp
-  Generating Code...
-  gameWindows.vcxproj -> C:\perforceTesting\year1\block b\metalGearPi\x64\Debug\gameWindows.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿cl : command line  warning D9035: option 'V' has been deprecated and will be removed in a future release
+  game.cpp
+  gameWindows.vcxproj -> C:\Users\dogef\Documents\cpp files\crossplatformTemplate\crossplatformTemplate\x64\Debug\gameWindows.exe
