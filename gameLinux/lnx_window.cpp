@@ -49,6 +49,12 @@ LnxWindow::LnxWindow()
     glCullFace(GL_BACK);
 }
 
+void LnxWindow::Clear()
+{
+    glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+}
+
 bool LnxWindow::InitializeEGL() 
 {
     m_eglDisplay = eglGetDisplay((EGLNativeDisplayType)m_display);
@@ -111,6 +117,10 @@ bool LnxWindow::InitializeEGL()
         return false;
     }
 
+    const GLubyte* version = glGetString(GL_VERSION);
+    printf("GL Version: %s\n", version);
+
+
     return true;
 }
 
@@ -120,24 +130,17 @@ void LnxWindow::Update()
     while (XPending(m_display)) 
     {
         XNextEvent(m_display, &event);
-        //if (event.type == KeyPress) 
-        //{
-        //    m_shouldClose = true;
-        //}
 
     }
 
-    // Clear screen
-    glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
     // Swap buffers
     eglSwapBuffers(m_eglDisplay, m_eglSurface);
+
 }
 
 bool LnxWindow::Init()
 {
-    return false;
+    return true;
 }
 
 void LnxWindow::Cleanup() 

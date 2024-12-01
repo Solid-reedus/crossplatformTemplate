@@ -16,8 +16,8 @@ LnxInput::LnxInput()
 {
     m_running = true;
     // Detect keyboard and mouse devices
-    m_keyboardDevice = "/dev/input/" + FindInputDevice("keyboard");
-    //m_keyboardDevice = "/dev/input/event1"; // for some reason linux defaults to event2 instead of event1 which isnt the one needed
+    //m_keyboardDevice = "/dev/input/" + FindInputDevice("keyboard");
+    m_keyboardDevice = "/dev/input/event1"; // for some reason linux defaults to event2 instead of event1 which isnt the one needed
 
     m_mouseDevice = "/dev/input/" + FindInputDevice("mouse");
 

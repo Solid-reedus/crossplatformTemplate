@@ -9,11 +9,10 @@ class LnxWindow : public BaseWindow
 {
     public:
     LnxWindow();
+    void Clear() override;
     void Update() override;
     bool Init() override;
-
-
-    bool ShouldClose() const { return m_shouldClose; };
+    bool ShouldClose() const override { return m_shouldClose; };
 
     private:
     Display* m_display = nullptr;

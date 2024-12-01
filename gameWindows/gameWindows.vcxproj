@@ -138,7 +138,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;WINDOWS_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)\libraries\shared\glm;$(IncludePath)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -195,13 +195,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="win_shader.cpp" />
     <ClCompile Include="win_input.cpp" />
     <ClCompile Include="win_window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="win_shader.h" />
     <ClInclude Include="win_input.h" />
     <ClInclude Include="win_window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default_frag_win.glsl" />
+    <None Include="default_vert_win.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

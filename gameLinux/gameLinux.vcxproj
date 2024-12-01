@@ -82,17 +82,26 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="lnx_input.cpp" />
+    <ClCompile Include="lnx_shader.cpp" />
     <ClCompile Include="lnx_window.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lnx_input.h" />
+    <ClInclude Include="lnx_shader.h" />
     <ClInclude Include="lnx_window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default_frag_lnx.glsl" />
+    <None Include="default_vert_lnx.glsl" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <Link>
       <LibraryDependencies>GLESv2;EGL;pthread;X11;Xrandr;assimp;BulletCollision;BulletSoftBody;BulletDynamics;LinearMath;</LibraryDependencies>
     </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>LINUX_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

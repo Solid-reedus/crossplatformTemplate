@@ -7,6 +7,9 @@
     <Filter Include="input">
       <UniqueIdentifier>{f4c432fa-e357-4c7c-8393-042962849e68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{f6c860d5-6e9b-4a0e-bd67-021f2554bfbc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win_window.cpp">
@@ -16,6 +19,10 @@
     <ClCompile Include="win_input.cpp">
       <Filter>input</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="win_shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="win_window.h">
@@ -24,5 +31,16 @@
     <ClInclude Include="win_input.h">
       <Filter>input</Filter>
     </ClInclude>
+    <ClInclude Include="win_shader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default_frag_win.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="default_vert_win.glsl">
+      <Filter>shader</Filter>
+    </None>
   </ItemGroup>
 </Project>

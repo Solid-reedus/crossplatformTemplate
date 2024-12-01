@@ -1,5 +1,9 @@
 
 #include "win_window.h"
+
+#include <glad/glad.h> 
+#include <GLFW/glfw3.h>
+
 #include <iostream>
 
 #include "../shared/common.h"
@@ -26,6 +30,14 @@ WinWindow::WinWindow()
 
     glfwMakeContextCurrent(m_window);
 
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    {
+        std::cerr << "Failed to initialize GLAD" << std::endl;
+        return;
+    }
+
+
+
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
@@ -33,12 +45,14 @@ WinWindow::WinWindow()
 
 void WinWindow::Update()
 {
-    glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
     glfwSwapBuffers(m_window);
     glfwPollEvents();
+}
 
+void WinWindow::Clear()
+{
+    glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
 bool WinWindow::Init()

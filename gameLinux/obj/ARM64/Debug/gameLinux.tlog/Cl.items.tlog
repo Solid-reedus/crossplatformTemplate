@@ -1,4 +1,7 @@
 C:\perforceTesting\year1\block b\metalGearPi\shared\game.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\game.o
+C:\perforceTesting\year1\block b\metalGearPi\shared\mesh.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\mesh.o
+C:\perforceTesting\year1\block b\metalGearPi\shared\model.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\model.o
 C:\perforceTesting\year1\block b\metalGearPi\gameLinux\lnx_input.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\lnx_input.o
+C:\perforceTesting\year1\block b\metalGearPi\gameLinux\lnx_shader.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\lnx_shader.o
 C:\perforceTesting\year1\block b\metalGearPi\gameLinux\lnx_window.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\lnx_window.o
 C:\perforceTesting\year1\block b\metalGearPi\gameLinux\main.cpp;C:\perforceTesting\year1\block b\metalGearPi\gameLinux\obj\ARM64\Debug\main.o

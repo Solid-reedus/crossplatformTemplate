@@ -8,6 +8,9 @@
     <ClCompile Include="lnx_input.cpp">
       <Filter>input</Filter>
     </ClCompile>
+    <ClCompile Include="lnx_shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="window">
@@ -15,6 +18,9 @@
     </Filter>
     <Filter Include="input">
       <UniqueIdentifier>{a59f7a3b-165c-4d7a-b991-8f33e18b0096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{216b4acd-aef1-45d8-b043-cc48d6e1d605}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,5 +30,16 @@
     <ClInclude Include="lnx_input.h">
       <Filter>input</Filter>
     </ClInclude>
+    <ClInclude Include="lnx_shader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default_frag_lnx.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="default_vert_lnx.glsl">
+      <Filter>shader</Filter>
+    </None>
   </ItemGroup>
 </Project>

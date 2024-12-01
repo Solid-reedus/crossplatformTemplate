@@ -41,7 +41,7 @@ openglGame/Release/
 
 # Explicitly stop ignoring the libraries folder
 !openglGame/openglGame/libraries/
-!openglGame/openglGame/libraries/**
+
 
 # Remove specific ignores for libraries/include/assimp x64-windows
 !openglGame/openglGame/libraries/include/assimp x64-windows/

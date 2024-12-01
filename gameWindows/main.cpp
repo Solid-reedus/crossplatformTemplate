@@ -1,24 +1,19 @@
-
-#include <iostream>
-#include "../shared/game.h"
+#include "win_shader.h"
 #include "win_window.h"
 #include "win_input.h"
+
+#include "../shared/game.h"
 
 
 int main()
 {
-    //construct the game
     WinWindow* window = new WinWindow();
     WinInput* input = new WinInput(window->GetGLFWWindow());
+    WinShader* shader = new WinShader("default_vert_win.glsl", "default_frag_win.glsl");
 
-    while (window->CheckIfWindowShouldClose())
-    {
-        BaseInput::MouseInfo info = input->PollMouse();
-        printf("mouse button info is %d \n", info.buttonState);
-        BaseInput::KeyBoardKey key =  input->PollKeyBoardInput();
-        printf("key info is %d \n", static_cast<int>(key));
+    Game game = Game(dynamic_cast<BaseWindow*>(window), dynamic_cast<BaseInput*>(input), dynamic_cast<BaseShader*>(shader));
+    game.Run();
 
-        window->Update();
-
-    }
+    return 1;
 }
+

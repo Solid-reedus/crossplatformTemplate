@@ -1,9 +1,11 @@
 #pragma once
 
+#include <glad/glad.h> 
 #include <GLFW/glfw3.h>
+
 #include "../shared/baseInput.h"
 
-class WinInput : BaseInput
+class WinInput : public BaseInput
 {
     public:
     WinInput(GLFWwindow* p_window) : m_window(p_window) {};
