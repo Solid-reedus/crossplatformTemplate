@@ -13,28 +13,67 @@
     <Filter Include="scene">
       <UniqueIdentifier>{7120e205-d77f-402f-9a9d-75e1ccbbd3e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="renderer">
+    <Filter Include="camera">
+      <UniqueIdentifier>{05460fea-32cc-47c7-b5b0-71cc58610cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
       <UniqueIdentifier>{36b4b809-33a4-4767-bb9c-191103e90bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\renderer">
+      <UniqueIdentifier>{71a31f14-d302-438e-9e49-ff7307883297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instance">
+      <UniqueIdentifier>{2f12f692-4dae-48b0-9e02-d179b7e588e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{1b10b85b-eece-4dc1-ad63-189e4c006d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{c01aa4e8-2872-4857-a50a-679434459508}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)game.h">
-      <Filter>game</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)baseInput.h">
       <Filter>input</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderable.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseShader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)baseWindow.h">
       <Filter>window</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h">
-      <Filter>renderer</Filter>
+    <ClInclude Include="$(MSBuildThisFileDirectory)camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)model.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mesh.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)instance.h">
+      <Filter>instance</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)game.cpp">
       <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mesh.cpp">
+      <Filter>model</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

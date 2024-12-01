@@ -15,12 +15,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)baseInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderable.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseShader.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)baseWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)camera.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)instance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)model.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)model.cpp" />
   </ItemGroup>
 </Project>
